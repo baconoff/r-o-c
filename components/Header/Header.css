@@ -1,0 +1,36 @@
+.header-container{
+    margin: 0;
+    padding: 0;
+    border-color: grey;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.header__image{
+    padding-left: 30px;
+    width: 300px;
+}
+
+.header__title{
+    padding-top: var(--spacing-small);
+    line-height: 1.2;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.header__links{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    padding-right: 40px;
+    list-style: none;
+    color: black;
+}
+
+.header__link{
+    padding-top: var(--spacing-medium);
+    width: 55px;
+    height: 55px;
+    text-decoration: none;
+}
